@@ -1,0 +1,2 @@
+language = "cpp"
+run = "g++ -o meminfo meminfo.cpp tools/tools.cpp; ./meminfo"
