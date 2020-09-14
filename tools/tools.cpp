@@ -18,7 +18,7 @@
 //
 // Wandelt eine Zeichenkette in eine Binärfolge entsprechend der ASCII-Tabelle um
 //
-std::string convertTextToBinary(std::string text)
+std::string ConvertTextToBinary(std::string text)
 {
   // define string which holds the result of the conversion
   std::string binary;
@@ -38,7 +38,7 @@ std::string convertTextToBinary(std::string text)
 //
 // Gibt Informationen zum Speicher aus, in dem die übergebene Zeichenkette gespeichert ist
 //
-void printMemoryInfo(std::string &text)
+void PrintMemoryInfo(std::string &text)
 {
 for(int i = 0; i < text.size(); i++) 
   {
@@ -50,7 +50,7 @@ for(int i = 0; i < text.size(); i++)
 //
 // Gibt die Start- und Endadresse des übergebenen Strings aus sowie die Differenz zwischen den beiden in Bytes
 //
-void printStringAddresses(std::string &text)
+void PrintStringAddresses(std::string &text)
 {
   char *startAdress = &(*text.begin());                                                             // Speicheradresse des ersten Zeichens ...
   char *endAdress = &(*text.end());                                                                 // ... und des letzten Zeichens im Text-String

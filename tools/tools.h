@@ -17,8 +17,8 @@
 
 #include <string>
 
-std::string convertTextToBinary(std::string text);
-void printMemoryInfo(std::string &text);
-void printStringAddresses(std::string &text);
+std::string ConvertTextToBinary(std::string text);
+void PrintMemoryInfo(std::string &text);
+void PrintStringAddresses(std::string &text);
 
 #endif /* TOOLS_H */
