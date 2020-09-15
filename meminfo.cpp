@@ -44,4 +44,11 @@ int main()
   int textLength; 
   textLength = text.size();
   cout << "Inhalt von textLength = " << textLength << ", Adresse von textLength = " << &textLength << endl;  
+
+
+  // 
+  // ** Schritt 4 : Aufwändige Berechnungen durchführen
+  // Hier wird die Laufzeit einer Berechnung ermittelt, um einen Vergleich zwischen Computern zu ermöglichen
+  //
+  PerformManyCalculations(1e8);
 }

@@ -20,5 +20,6 @@
 std::string ConvertTextToBinary(std::string text);
 void PrintMemoryInfo(std::string &text);
 void PrintStringAddresses(std::string &text);
+void PerformManyCalculations(int numOfCalculations);
 
 #endif /* TOOLS_H */
