@@ -50,5 +50,8 @@ int main()
   // ** Schritt 4 : Aufwändige Berechnungen durchführen
   // Hier wird die Laufzeit einer Berechnung ermittelt, um einen Vergleich zwischen Computern zu ermöglichen
   //
-  PerformManyCalculations(1e8);
+  RunTime rt; 
+  rt.Start();
+  PerformManyCalculations(1e7);
+  rt.Stop();
 }

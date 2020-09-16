@@ -16,6 +16,7 @@
 #include <bitset>
 #include <chrono> 
 #include <math.h> 
+#include "tools.h"
 
 using namespace std;
 using namespace std::chrono;
@@ -63,23 +64,29 @@ void PrintStringAddresses(string &text)
 }
 
 //
+// Funktionen zur Berechnung der Laufzeit von Programmen 
+// Kapselung in eigener Klasse erleichert die Nutzung der Funktionen
 //
-//
-void PerformManyCalculations(int numOfCalculations)
+void RunTime::Start()
 {
     // Record start time
-    time_point<high_resolution_clock> start = high_resolution_clock::now();
+    _start = high_resolution_clock::now();
+}
 
-    // Portion of code to be timed
-    for(int i=0; i<numOfCalculations; i++)
+void RunTime::Stop()
+{
+    // Record end time
+    _stop = high_resolution_clock::now();
+
+    // Print runtime to terminal
+    duration<double> elapsed = duration_cast<milliseconds>(_stop - _start);
+    printf("Laufzeit = %f ms\n", elapsed.count());
+}    
+
+void PerformManyCalculations(int nTimes)
+{
+    for(int i=0; i<nTimes; i++)
     {
         double res = cos(i*M_PI_4);
     }
-
-    // Record end time
-    time_point<high_resolution_clock> stop = high_resolution_clock::now();
-
-    // Print runtime to terminal
-    duration<double> elapsed = duration_cast<microseconds>(stop - start);
-    printf("Laufzeit = %f us\n", elapsed.count());
 }

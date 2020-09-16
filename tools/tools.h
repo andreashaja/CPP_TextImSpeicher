@@ -16,10 +16,22 @@
 #define TOOLS_H
 
 #include <string>
+#include <chrono>
+
+using namespace std::chrono; 
 
 std::string ConvertTextToBinary(std::string text);
 void PrintMemoryInfo(std::string &text);
 void PrintStringAddresses(std::string &text);
 void PerformManyCalculations(int numOfCalculations);
+
+class RunTime {
+    private: 
+        time_point<high_resolution_clock> _start, _stop;
+
+    public:
+        void Start();
+        void Stop();
+};
 
 #endif /* TOOLS_H */
