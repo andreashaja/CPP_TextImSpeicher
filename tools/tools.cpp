@@ -83,10 +83,18 @@ void RunTime::Stop()
     printf("Laufzeit = %f ms\n", elapsed.count());
 }    
 
-void PerformManyCalculations(int nTimes)
+void ComputeSqrtOf2(int nTimes)
 {
     for(int i=0; i<nTimes; i++)
     {
-        double res = cos(i*M_PI_4);
+        double res = sqrt(2.0);
+    }
+}
+
+void ComputeCosOfPi(int nTimes)
+{
+    for(int i=0; i<nTimes; i++)
+    {
+        double res = cos(M_PI);
     }
 }

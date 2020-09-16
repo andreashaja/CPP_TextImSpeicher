@@ -50,8 +50,13 @@ int main()
   // ** Schritt 4 : Aufwändige Berechnungen durchführen
   // Hier wird die Laufzeit einer Berechnung ermittelt, um einen Vergleich zwischen Computern zu ermöglichen
   //
-  RunTime rt; 
+  RunTime rt; // enthält Befehle zur vereinfachten Ermittlung der Laufzeit
+
   rt.Start();
-  PerformManyCalculations(1e7);
+  ComputeCosOfPi(100000000);
+  rt.Stop();
+
+  rt.Start();
+  ComputeSqrtOf2(100000000);
   rt.Stop();
 }
