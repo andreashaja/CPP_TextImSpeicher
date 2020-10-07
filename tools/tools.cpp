@@ -79,8 +79,8 @@ void RunTime::Stop()
     _stop = high_resolution_clock::now();
 
     // Print runtime to terminal
-    duration<double> elapsed = duration_cast<milliseconds>(_stop - _start);
-    printf("Laufzeit = %f ms\n", elapsed.count());
+    duration<double> elapsed = duration_cast<microseconds>(_stop - _start);
+    printf("Laufzeit = %f Mikrosekunden\n", elapsed.count());
 }    
 
 void ComputeSqrtOf2(int nTimes)
