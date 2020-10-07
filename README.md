@@ -1,4 +1,4 @@
-# Einstieg in die Programmierung mit C++
+# Text einlesen und Speicheradressen analysieren
 
 [The Fearless Engineer : `C++`](https://www.thefearlessengineer.com/cpp-kurs)
 
@@ -11,7 +11,6 @@ Dieses Projekt ist Teil eines Online-Kurses zur Programmiersprache C++. Der Code
 
 
 ---
-<br>
 
 ## Wie kann ich den Code im Projekt nutzen?
 
@@ -19,12 +18,14 @@ Dieses Projekt ist Teil eines Online-Kurses zur Programmiersprache C++. Der Code
 
 Der einfachste Weg, den Code auszuführen und zu verändern, ist über die Online-IDE `repl.it`. Mit den folgenden Links kommst du direkt zum Editor und über den `Run`-Button kann das jeweilige Programm kompiliert und ausgeführt werden. 
 
-1. **Haupt-Programm** (`meminfo.cpp`) :  <br> --> [go.tfe.academy/2009176](https://go.tfe.academy/2009176)
+1. **Haupt-Programm** (`meminfo.cpp`) :  
+--> [go.tfe.academy/2010072](https://go.tfe.academy/2010072)
 
 2. **Übungen**
-   - **Übung 1** (`exercises/exe_01/exe_01.cpp`) : <br> --> [go.tfe.academy/20091710](https://go.tfe.academy/20091710)
-
-   - **Übung 2** (`exercises/exe_02/exe_02.cpp`) : <br> --> [go.tfe.academy/20091710](https://go.tfe.academy/20091710) 
+   - **Übung 1** (`exercises/exe_01/exe_01.cpp`) : 
+   --> [go.tfe.academy/2010073](https://go.tfe.academy/2010073)
+   - **Übung 2** (`exercises/exe_02/exe_02.cpp`) : 
+   --> [go.tfe.academy/2010074](https://go.tfe.academy/2010074)
 
 <br> 
 
@@ -36,7 +37,7 @@ Dazu sind die folgenden Schritte erforderlich:
 
 0. Nur für Windows: Installation des "Windows Terminal" --> [go.tfe.academy/2008278](https://go.tfe.academy/2008278)
 
-1. Klonen des GitHub-Repos oder Download als ZIP (`master` branch)--> [go.tfe.academy/2009204](https://go.tfe.academy/2009204)
+1. Klonen des GitHub-Repos oder Download als ZIP (`master` branch)--> [go.tfe.academy/2010075](https://go.tfe.academy/2010075)
 
 2. Installation von Entwicklerwerkzeugen : Die Anleitungen für die erforderlichen Tools `cmake`, `make` und `gcc` findest du unter [Tools für die lokale Installation](#Tools-für-die-lokale-Installation).
    
