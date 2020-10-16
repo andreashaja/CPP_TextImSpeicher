@@ -4,7 +4,7 @@
 Ziel der Aufgabe ist es, die Größe von Variablen mit unterschiedlichen Datentypen im Speicher zu ermitteln. Am Ende der Aufgabe wirst du wissen, wie man den Adressoperator `&` benutzt, wie man Hexadezimalzahlen und Dezimalzahlen ineinander konvertiert und wie viel Speicherplatz für die Datentypen 'int' und 'double' benötigt wird. 
  
 ## Den Code kompilieren und ausführen
-1. Wechsel in das Aufgabenverzeichnis : 'cd exercises/exe_01/'
+1. Wechsele in das Aufgabenverzeichnis : 'cd exercises/exe_01/'
 2. Kompilieren des Codes : 'g++ -o exe_01 exe_01.cpp ./../../tools/tools.cpp'
 3. Ausführen des Codes : './exe_01'
 

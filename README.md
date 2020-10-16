@@ -16,18 +16,18 @@ Dieses Projekt ist Teil eines Online-Kurses zur Programmiersprache C++. Der Code
 
 ###  **Variante A (empfohlen)** : Online-Enwicklungsumgebung repl.it
 
-Der einfachste Weg, den Code auszuführen und zu verändern, ist über die Online-IDE `repl.it`. Mit den folgenden Links kommst du direkt zum Editor und über den `Run`-Button kann das jeweilige Programm kompiliert und ausgeführt werden. 
+Der einfachste Weg, den Code auszuführen und zu verändern, ist über die Online-IDE `repl.it`. Um die jeweiligen Programme zu kompilieren und auszuführen, musst du nur den jeweiligen Befehl im Terminal eingeben.
 
 1. **Haupt-Programm** (`meminfo.cpp`) :  
---> [go.tfe.academy/2010072](https://go.tfe.academy/2010072)
+`g++ -o meminfo meminfo.cpp ./tools/tools.cpp; ./meminfo`
 
 2. **Übungen**
+   
    - **Übung 1** (`exercises/exe_01/exe_01.cpp`) : 
-   --> [go.tfe.academy/2010073](https://go.tfe.academy/2010073)
-   - **Übung 2** (`exercises/exe_02/exe_02.cpp`) : 
-   --> [go.tfe.academy/2010074](https://go.tfe.academy/2010074)
+   `g++ -o exe_01 ./exercises/exe_01/exe_01.cpp; ./exe_01`
 
-<br> 
+   - **Übung 2** (`exercises/exe_02/exe_02.cpp`) : 
+   `g++ -o exe_02 ./exercises/exe_02/exe_02.cpp ./tools/tools.cpp; ./exe_02`
 
 ###  **Variante B** : Das Projekt auf der eigenen Festplatte starten
 
